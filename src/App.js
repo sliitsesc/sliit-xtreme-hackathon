@@ -14,7 +14,7 @@ function App() {
         <div className="Heading-container">
           <div className={"animate__animated animate__pulse animate__infinite"}><h1 className={"Heading"}>LEADERBOARD</h1></div>
           <div className="Table-container">
-          <table class="table table-striped table-condensed table-bordered">
+          <table className="table table-striped table-condensed table-bordered">
   <thead>
     <tr>
       <th scope="col">#</th>
