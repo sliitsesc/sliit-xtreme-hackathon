@@ -1,5 +1,5 @@
 export const scores = [
-    /* {
+    {
         teamName: "A",
         score: 23
     },
@@ -18,5 +18,5 @@ export const scores = [
     {
         teamName: "E",
         score: 25
-    }, */
+    },
 ]
