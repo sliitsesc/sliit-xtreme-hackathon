@@ -1,38 +1,23 @@
-.App {
+.Heading-container {
+  padding-top: 10vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Heading {
+  color: azure;
+  font-family: 'Montserrat', sans-serif;
+  font-size: xx-large;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Table-container {
+  margin: auto;
+  width: 75%;
+  padding-top: 20vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table tr td, table tr th{
+  background-color: rgba(191, 189, 192, 0.3) !important;
+  color: #fff;
+  font-weight: 700;
+  font-size: large;
 }
