@@ -1,3 +1,9 @@
+/* import React, { useState, useEffect} from 'react'
+//import db from '../../firebase.config'
+
+
+
+
 export const scores = [
     {
         teamName: "A",
@@ -19,4 +25,4 @@ export const scores = [
         teamName: "E",
         score: 25
     },
-]
+] */
