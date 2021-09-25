@@ -7,11 +7,11 @@ function App() {
 
   useEffect(() => {
     fetchScores()
-    const interval = setInterval(() => {
-      fetchScores()
-    }, 1800000)
+//     const interval = setInterval(() => {
+//       fetchScores()
+//     }, 1800000)
 
-    return () => clearInterval(interval)
+//     return () => clearInterval(interval)
   }, [])
 
   const fetchScores = async () => {
