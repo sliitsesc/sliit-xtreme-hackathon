@@ -6,14 +6,16 @@ function App() {
   const [scores, setScores] = useState([])
 
   useEffect(() => {
-    fetchScores()
-    console.log("fetch()");
+      console.log(scores)
+    if(scores.length == 0){
+      fetchScores();
+    }
 //     const interval = setInterval(() => {
 //       fetchScores()
 //     }, 1800000)
 
 //     return () => clearInterval(interval)
-  }, [])
+  }, [scores])
 
   const fetchScores = async () => {
     await db.collection('scores').get().then((querySnapshot) => {
