@@ -1,14 +1,15 @@
-import firebase from 'firebase';
+import firebase from 'firebase/app'
+import 'firebase/firestore'
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAr5sHDuUQJXDl9DZKG6WQZx0j0lRI1y3A",
-  authDomain: "sliit-xtreme-leaderboard-db391.firebaseapp.com",
-  projectId: "sliit-xtreme-leaderboard-db391",
-  storageBucket: "sliit-xtreme-leaderboard-db391.appspot.com",
-  messagingSenderId: "43532885486",
-  appId: "1:43532885486:web:5b59eb38b7f1091bc5c2ff"
+  apiKey: "AIzaSyD5eZBuviIAjh0VqqBLEF6zKYU5_yF5HVo",
+  authDomain: "leaderboard-db-7021f.firebaseapp.com",
+  projectId: "leaderboard-db-7021f",
+  storageBucket: "leaderboard-db-7021f.appspot.com",
+  messagingSenderId: "924799131689",
+  appId: "1:924799131689:web:e5882746a74f00f357bc38"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
