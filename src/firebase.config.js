@@ -4,12 +4,12 @@ import 'firebase/firestore'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDenaDMRnVj-0Y6tLGuZQspt1K-w4eMBig",
-  authDomain: "leaderboard-db2.firebaseapp.com",
-  projectId: "leaderboard-db2",
-  storageBucket: "leaderboard-db2.appspot.com",
-  messagingSenderId: "618541405851",
-  appId: "1:618541405851:web:03b524fc96018dec3d183e"
+  apiKey: "AIzaSyBniqkDp0UkyOLvpc5eOCebMcKE-LKzFAg",
+  authDomain: "leaderboard-db-3.firebaseapp.com",
+  projectId: "leaderboard-db-3",
+  storageBucket: "leaderboard-db-3.appspot.com",
+  messagingSenderId: "1096595444610",
+  appId: "1:1096595444610:web:e368adbc59b9ad517eb59b"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
