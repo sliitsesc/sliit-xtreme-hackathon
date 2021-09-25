@@ -7,6 +7,7 @@ function App() {
 
   useEffect(() => {
     fetchScores()
+    console.log("fetch()");
 //     const interval = setInterval(() => {
 //       fetchScores()
 //     }, 1800000)
