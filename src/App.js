@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       fetchScores()
-    }, 5000)
+    }, 1800000)
 
     return () => clearInterval(interval)
   }, [])
