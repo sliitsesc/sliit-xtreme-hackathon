@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
       console.log(scores)
-    if(scores.length == 0){
+    if(scores.length === 0){
       fetchScores();
     }
 //     const interval = setInterval(() => {
