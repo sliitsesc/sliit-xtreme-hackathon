@@ -6,6 +6,7 @@ function App() {
   const [scores, setScores] = useState([])
 
   useEffect(() => {
+    fetchScores()
     const interval = setInterval(() => {
       fetchScores()
     }, 1800000)
