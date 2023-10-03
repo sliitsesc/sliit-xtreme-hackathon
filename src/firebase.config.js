@@ -9,7 +9,7 @@ const firebaseConfig = {
   projectId: "leaderboard-db-3",
   storageBucket: "leaderboard-db-3.appspot.com",
   messagingSenderId: "1096595444610",
-  appId: "1:1096595444610:web:e368adbc59b9ad517eb59b"
+  appId: "1:1096595444610:web:e368adbc59b9ad517eb59b",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
